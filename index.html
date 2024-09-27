@@ -2,45 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Resume</title>
+    <title>Miguel Solano's Portfolio</title>
     <style>
+        body {
+            background:#f2f2f2;
+            color: #F1F6F9;
+        }
         h1 {
             font-family: "Forum", serif;
             font-weight: 400;
-            font-style: normal;
-            text-align: center;
             font-size: 60px;
+            text-align: center;
         }
         h2 {
             font-family: "Forum", serif;
             font-weight: 400;
-            font-style: normal;
         }
-        h3 {
-            font-family: "Forum", serif;
+        hr {
+            width:200px;
+        }
+        p, li {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 100;
+            font-size: 15px;
+        }
+        a:link, a:visited {
+            font-family: "Open Sans", sans-serif;
+            font-size: 15px; 
             font-weight: 400;
-            font-style: normal;
+            color: #9BA4B5;
         }
-        p {
-            font-family: "Open Sans", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 100;
-            font-style: normal;
-            font-variation-settings:
-                "wdth" 100;
-            font-size: 14px;
+
+        .main-container{
+            display:flex;
+            justify-content: center;
+            padding: 30px 0px 30px 0px;
         }
-        li {
-            font-family: "Open Sans", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 100;
-            font-style: normal;
-            font-variation-settings:
-                "wdth" 100;
-            }
-        a {
-           font-family: Arial, sans-serif;
-            font-size: 12px; 
+        .left-sub-container{
+            flex: 1;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #212A3E;
+            border-radius: 20px;
+            text-align: center;
+            justify-content: center;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+            /* box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+        }
+        .section-div {
+            padding: 0px 35px 0px 35px;
         }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,48 +61,99 @@
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="main-container">
+  <div class="left-sub-container">
     <div>
-        <h1 style="margin: 0pt">Miguel Solano</h1>
+        <h1 style="margin: 0pt;">Miguel Solano</h1>
+        <p style="text-align:center; margin: 0pt; margin-bottom: 10pt;">Healthcare Finance Professional · BI Developer</p>
+        <div style="display:flex; gap: 10px; justify-content: center">
+            <a href="mailto:miguelsolanomba@gmail.com">
+                <img src="./images/email_icon.png" style="width:40px;height:40px;">
+            </a>
+            <a href="https://www.linkedin.com/in/miguelsolanomba/" target="_blank">
+                <img src="./images/in_icon.png" style="width:40px;height:40px;">
+            </a>
+            <a href="https://public.tableau.com/app/profile/miguel.solano3804/vizzes" target="_blank" style=" align-content: center;">
+                <img src="./images/tableau_icon.png" style="width:33px;height:33px; background-color: whitesmoke;border-radius: 50%; overflow: hidden;">
+            </a>
+            <a href="https://github.com/miguelsolanomba" target="_blank" style=" align-content: center;">
+                <img src="./images/github_icon.png" style="width:40px;height:40px;">
+            </a>
+        </div>
+        <hr style="width:550px"/>            
     </div>
-    
-    <p style="text-align:center; margin: 0pt;">Healthcare Finance & Business Intelligence Professional</p>
-    <hr />
-    <h2>About</h2>
-    <p>Healthcare Finance & Business Intelligence Professional with 20+ years of progressive work experience. Highly skilled in analyzing data to find insights and determine best courses of action, interfacing with high level leadership to drive continuous improvement initiatives and delivering high quality financial analyses for better profitability performance. Passionate about Data Analytics and action-oriented Data Visualizations. Bilingual Spanish and English.</p>
-    <h2>Experience</h2>
-    <ul>
-        <li><h3>Banner Health</h3></li>
-        <ul>
-            <li><p>Supervisor - Financial Analysis Consultant  (Jun 2021 - Present)</p></li>
-            <li><p>Associate Director, Clinical Division  (Dec 2019 - May 2021 · 1 yr 6 mos)</p></li>
-            <li><p>Business Analyst  (Oct 2018 - Dec 2019 · 1 yr 3 mos)</p></li>
-        </ul>        
-        <li><h3>Synchronoss Technologies</h3></li>
-        <ul>
-            <li><p>Business Analyst  (Jul 2013 - Oct 2018 · 5 yrs 4 mos)</p></li>
-            <li><p>Operations Supervisor  (Apr 2006 - Jun 2013 · 7 yrs 3 mos)</p></li>
-            <li><p>Service Coordinator (Dec 2003 - Mar 2006 · 2 yrs 4 mos)</p></li>
-        </ul>
-    </ul> 
-    <h2>Education</h2>
-    <ul>
-        <li><p>Master of Business Administration (MBA) - Regis University (2010-2012)</p></li>
-    </ul>
-    <h2>Top Skills</h2>
-    <ul>
-        <li>Financial Analysis · Business Intelligence · MS Power BI · SQL · Excel</li>
-    </ul>
 
-    <h2>Licenses & Certifications</h2>
-    <ul>
-        <li><p>Certified Healthcare Financial Professional (CHFP)</p></li>
-        <li><p>Certified Specialist Business Inteliigence (CSBI)</p></li>
-    </ul>
-    <br />
-    <a href="./contactme.html">Contact me</a>
-    <a href="https://www.linkedin.com/in/miguelsolanomba/">Linkedin</a>
+    <div class ="section-div">
+        <h2 style="font-size: 45px;">Portfolio</h2>
+        <p>This is some placeholder text<br />
+        and this is a second line of it</p>
+        <br />
+        <hr />
+    </div>
+
+    <div class ="section-div">
+        <h2>About me</h2>
+        <img src="./images/headshot.jpg" style="width:25%;height:25%;border-radius: 10%;">
+        <p style="text-align:left">I'm a Healthcare Finance Professional & Business Intelligence Developer.</p>
+        <p style="text-align:left">I'm highly skilled in analyzing data to find insights and determine best courses of action, interfacing with high level leadership to drive continuous improvement initiatives and delivering high quality financial analyses for better profitability performance.</p>
+        <p style="text-align:left">I focus on creating deliverables that provide valuable business insights that drive decision making, while helping automate and streamline reports that connect to various data sources.</p>
+        <p style="text-align:left">I've dedicated 1,000+ hours on building reports that save time and money.</p>
+        <br />
+        <hr />  
+    </div>
+
+
+    <div class ="section-div">
+        <h2>Skills</h2>
+        <p>Excel · SQL · MS Power BI · Tableau<br />
+        Financial & Business Analytics · Team Management · Report & Dashboard Development</p>
+        <br />
+        <hr />
+    </div>
+
+    <div class ="section-div">
+        <h2>Professional Certifications</h2>
+        <div style="display:block">
+            <img src="./images/chfp.png" style="width:16.6%;height:16.6%;">
+            <p>Certified Healthcare Financial Professional (CHFP) · Issued 2023</p>
+        </div>
+        <br />
+        <div style="display:block">
+            <img src="./images/csbi.png" style="width:16.6%;height:16.6%;">
+            <p>Certified Specialist Business Intelligence (CSBI) · Issued 2023</p>
+        </div>
+        <br />
+        <hr />  
+    </div>
+
+    <div class ="section-div">
+        <h2>Education</h2>
+        <div style="display:block">
+            <img src="./images/regisu.jfif" style="width:16.6%;height:16.6%;">
+            <p>Master of Business Administration (MBA) · Regis University (2012)</p>
+        </div>
+        <br />
+        <hr />  
+    </div>
+
+    <div class ="section-div">
+        <h2>Thanks!</h2>
+        <p>Thank you for taking the time to visit my portfolio!<br />
+        If you'd like to connect with me, please email me at:<br />
+        <a href="mailto:miguelsolanomba@gmail.com" style="text-decoration:none !important">miguelsolanomba@gmail.com</a>
+        </p>
+        <p>You can also check my LinkedIn profile at:<br />
+        <a href="https://www.linkedin.com/in/miguelsolanomba/" style="text-decoration:none !important">https://www.linkedin.com/in/miguelsolanomba/</a>
+        </p>
+        <br />
+        <hr />  
+
+    </div>
+
     <footer>
-        <p>© 2024 Miguel Solano</p>
+        <p>© 2024 Miguel Solano. All rights reserved.</p>
     </footer>
+  </div>
+</div>
 </body>
 </html>
