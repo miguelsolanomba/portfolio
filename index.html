@@ -52,6 +52,27 @@
         .section-div {
             padding: 0px 35px 0px 35px;
         }
+        .animate {
+        animation-duration: 1.5s;
+        animation-delay: 1s;
+        animation-name: animate-fade;
+        animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+        animation-fill-mode: backwards;
+        }
+        /* Slide In */
+        .animate.slide {
+            animation-name: animate-slide;
+        }
+        @keyframes animate-slide {
+            0% {
+                opacity: 0;
+                transform: translate(0, 20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translate(0, 0);
+            }
+        }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,7 +81,7 @@
 </head>
 <body>
 <div class="main-container">
-  <div class="centered-sub-container">
+  <div class="centered-sub-container animate slide">
     <div>
         <h1 style="margin: 0pt;">Miguel Solano</h1>
         <p style="font-size: 22px; text-align:center; margin: 0pt; margin-bottom: 10pt;">Healthcare Finance Professional · BI Developer</p>
