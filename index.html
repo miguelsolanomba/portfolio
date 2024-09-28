@@ -13,33 +13,56 @@
             background-attachment: fixed
         }
         h1 {
-            font-size: 60px;
+            font-size: 3.75rem;
+            margin: 0pt;
         }
         h1, h2 {
             font-family: "Forum", serif;
             font-weight: 400;
         }
+        h2 {
+            font-size: 2.82rem;
+        }
+        h3 {
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.38rem;            
+            font-weight: 100;
+            text-align:center;
+            margin: 0pt;
+            margin-bottom: 10pt;
+            line-height: 1.5;
+        }
         p, li {
             font-family: "Open Sans", sans-serif;
             font-weight: 100;
-            font-size: 18px;
             line-height: 1.5;
         }
         p{
-            font-size: 18px;
+            font-size: 1.13rem;
         }
         li{
-            font-size: 15px;
+            font-size: 0.95rem;
+        }
+        a:link, a:visited {
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.13rem; 
+            font-weight: 400;
+            color: #9BA4B5;
+            text-decoration:none !important;
+        }
+        .ital-text{
+            font-size: 1rem;
+            font-style: italic;
         }
         hr {
             width:400px;
         }
-        a:link, a:visited {
-            font-family: "Open Sans", sans-serif;
-            font-size: 18px; 
-            font-weight: 400;
-            color: #9BA4B5;
-            text-decoration:none !important;
+        .hfma-icon{
+            display:flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            color: #F1F6F9
         }
         .main-container{
             display:flex;
@@ -91,12 +114,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 <div class="main-container">
   <div class="centered-sub-container animate slide">
     <div>
-        <h1 style="margin: 0pt;">Miguel Solano</h1>
-        <p style="font-size: 22px; text-align:center; margin: 0pt; margin-bottom: 10pt;">Healthcare Finance Professional · BI Developer</p>
+        <h1>Miguel Solano</h1>
+        <h3>Healthcare Finance Professional · BI Developer</h3>
         <div style="display:flex; gap: 10px; justify-content: center">
             <a href="mailto:miguelsolanomba@gmail.com" title="email: miguelsolanomba@gmail.com">
                 <img src="./images/email_icon.png" style="width:80px;height:80px;">
@@ -118,7 +142,7 @@
     </div>
 
     <div class ="section-div">
-        <h2 style="font-size: 45px;">Portfolio</h2>
+        <h2>Portfolio</h2>
         <p>Section still under Construction...<br />
         Coming soon!</p>
         <br />
@@ -126,7 +150,7 @@
     </div>
 
     <div class ="section-div">
-        <h2 style="font-size: 45px;">About me</h2>
+        <h2>About me</h2>
         <img src="./images/headshot.jpg" style="width:25%;height:25%; border-radius: 10%;">
         <div style="margin-left: 50px; margin-right: 50px;">
             <p style="text-align:justify;">I'm a Healthcare Finance Professional & Business Intelligence Developer.</p>
@@ -139,7 +163,7 @@
     </div>
 
     <div class ="section-div">
-        <h2 style="font-size: 45px;">Skills</h2>
+        <h2>Skills</h2>
         <img src="./images/skills.png" style="border-radius: 5px">
         <p>Excel · SQL · Power BI · Tableau</p>
         <div class="flex-container" style="margin-left: 135px; margin-right: 135px;">
@@ -163,20 +187,22 @@
     </div>
 
     <div class ="section-div">
-        <h2 style="font-size: 45px;">Professional Certifications</h2>
+        <h2>Professional Certifications</h2>
         <a href="https://www.credly.com/badges/401ef6a8-e3ae-430e-a87f-4d08fa982825"  target="_blank" >
-        <div style="display:flex; gap: 10px; align-items: center; justify-content: center; color: #F1F6F9" title="My CHFP certification badge, verified by Credly">
+        <div class="hfma-icon"  title="My CHFP certification badge, verified by Credly">
             <img src="./images/chfp.png" style="width:16.6%;height:16.6%;">
-            <p>Certified Healthcare Financial Professional (CHFP)<br />
-                <span style="font-size: 16px; font-style: italic;">Issued 2023</span></p>
+            <p>Certified Healthcare Financial Professional<br />
+                (CHFP)<br />
+                <span class ="ital-text">Issued 2023</span></p>
         </div>
         </a>
         <br />
         <a href="https://www.credly.com/badges/b460af68-f380-4390-9418-1f3683a876f0"  target="_blank" >
-        <div style="display:flex; gap: 10px; align-items: center; justify-content: center; color: #F1F6F9"  title="My CSBI certification badge, verified by Credly">
+        <div class="hfma-icon" title="My CSBI certification badge, verified by Credly">
             <img src="./images/csbi.png" style="width:16.6%;height:16.6%;">
-            <p>Certified Specialist Business Intelligence (CSBI)<br />
-                <span style="font-size: 16px; font-style: italic;">Issued 2023</span></p>
+            <p>Certified Specialist Business Intelligence<br />
+                (CSBI)<br />
+                <span class ="ital-text">Issued 2023</span></p>
         </div>
         </a>
         <br />
@@ -184,18 +210,19 @@
     </div>
 
     <div class ="section-div">
-        <h2 style="font-size: 45px;">Education</h2>
+        <h2>Education</h2>
         <div style="display:flex; gap: 10px; align-items: center; justify-content: center;">
             <img src="./images/regisu.jfif" style="width:16.6%;height:16.6%; border-radius: 10%;">
-            <p>Master of Business Administration (MBA)<br />
-                <span style="font-size: 16px; font-style: italic;">Regis University (2012)</span></p>
+            <p>Master of Business Administration<br />
+                (MBA)<br />
+                <span class ="ital-text">Regis University · 2012</span></p>
         </div>
         <br /><br />
         <hr />  
     </div>
 
     <div class ="section-div">
-        <h2 style="font-size: 45px;">Thanks!</h2>
+        <h2>Thanks!</h2>
         <p>Thank you for taking the time to visit my portfolio!<br />
         If you'd like to connect with me, please email me at:<br />
         <a href="mailto:miguelsolanomba@gmail.com"  title="email: miguelsolanomba@gmail.com">miguelsolanomba@gmail.com</a>
